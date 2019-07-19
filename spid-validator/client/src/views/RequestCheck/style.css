@@ -1,0 +1,74 @@
+.testset {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.test-success {
+    color: green!important;
+    font-size: 32px;
+    line-height: 25px;
+    margin: -5px;
+    cursor: pointer;
+}
+
+.test-fail {
+    color: red!important;
+    font-size: 32px;
+    line-height: 25px;
+    margin: -5px;
+    cursor: pointer
+}
+
+.detail-table {
+    border:1px solid #999;
+    width: 100%;
+}
+
+.detail-table th, .detail-table td {
+    padding: 5px;
+}
+
+.detail-header {
+    background: #DDDDDD;
+}
+
+.detail-row {
+    border:1px solid #000;
+}
+
+.detail-row:hover {
+    background: #EEEEEE;
+}
+
+.detail-num {
+    width: 50px;
+}
+
+.detail-result {
+    width: 100px;
+}
+
+.test-success-dm {
+    background: green!important;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.test-fail-dm {
+    background: red!important;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.tools {
+    padding: 30px 5px;
+    background: #FFFFFF;
+    margin-left: 15px;
+}
+
+@media print {
+    .tools {
+        display: none;
+    }
+}
